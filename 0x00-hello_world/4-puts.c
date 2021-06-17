@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/**the starting point of main function*/
+/**
+ * main = starting point
+ *
+ * Return: 0 Success
+ */
 
 int main(void)
 {
