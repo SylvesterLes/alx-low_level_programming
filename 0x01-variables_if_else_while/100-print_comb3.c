@@ -1,30 +1,29 @@
 #include <stdio.h>
-
 /**
-* main - Print smallest combination of two digits
-*
-* Return: Always 0 (Success)
-*/
+ * main - Print smallest combinations of two digits
+ *
+ * Return: 0 (success)
+ *
+ */
 int main(void)
 {
-  int tens;
-  int ones;
+	int ten;
+	int one;
 
-  for (tens = 0; tens <= 9; tens++)
-    {
-      for (ones = tens + 1; ones <= 9; ones++)
+	for (ten = 0; ten < 10; ten++)
 	{
-	  putchar(tens + '0');
-	  putchar(ones + '0');
+		for (one = ten + 1; one < 10; one++;)
+		{
+			putchar(ten + '0');
+			putchar(one + '0');
 
-	  if (tens < 8)
-	    {
-	      putchar(',');
-	      putchar(' ');
-	    }
+			if (ten < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-    }
-  putchar('\n');
-
-  return (0);
+	putchar('\n');
+	return (0);
 }
