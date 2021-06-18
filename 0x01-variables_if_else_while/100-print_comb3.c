@@ -12,7 +12,7 @@ int main(void)
 
 	for (ten = 0; ten < 10; ten++)
 	{
-		for (one = ten + 1; one < 10; one++);
+		for (one = ten + 1; one < 10; one++)
 		{
 			putchar(ten + '0');
 			putchar(one + '0');
