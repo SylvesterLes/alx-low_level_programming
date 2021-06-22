@@ -9,7 +9,7 @@ void print_alphabet(void)
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 25; i++)
+	for (i = 0; i < 26; i++)
 	{
 		_putchar(alphabets[i]);
 	}
