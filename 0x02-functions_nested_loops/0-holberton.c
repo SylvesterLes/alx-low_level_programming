@@ -2,7 +2,7 @@
 /**
  * main - Print "Holberton"
  *
- * Return - Always 0
+ * Return:  Always 0 (No error)
  */
 int main(void)
 {
