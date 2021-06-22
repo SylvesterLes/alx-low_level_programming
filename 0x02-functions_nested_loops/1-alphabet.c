@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
- * main - check the code for ALX School students.
+ * print_alphabet- Print all small alphabets.
  *
  * Return: Always 0
  */
-void print_alphabet()
+void print_alphabet(void)
 {
-	char alphabets[] = "abcdefghijklmnopqrstvwxz";
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 24; i++)
