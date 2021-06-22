@@ -5,7 +5,7 @@
 *
 * @n: input number.
 *
-* Return: 0 (program executed without errors)
+* Return: null
 */
 void print_to_98(int n)
 {
@@ -24,5 +24,4 @@ void print_to_98(int n)
 		}
 	}
 	printf("%d\n", n);
-	return 0;
 }
