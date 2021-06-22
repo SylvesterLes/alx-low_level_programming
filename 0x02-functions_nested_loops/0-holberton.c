@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <holberton.h>
 /**
  * main - Print holberton
  *
@@ -6,6 +6,13 @@
  */
 int main(void)
 {
-	printf("Holberton\n");
+	int alpha;
+	char word[] = "Holberton";
+
+	for(alpha = 0; alpha < 9; alpha++)
+	{
+		_putchar(word[alpha]);
+	}
+	_putchar('\n);
 	return (0);
 }
