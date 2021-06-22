@@ -9,7 +9,7 @@ int main(void)
 	int alpha;
 	char word[] = "Holberton";
 
-	for(alpha = 0; alpha < 9; alpha++)
+	for (alpha = 0; alpha < 9; alpha++)
 	{
 		_putchar(word[alpha]);
 	}
