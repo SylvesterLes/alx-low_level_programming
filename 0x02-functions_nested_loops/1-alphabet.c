@@ -7,8 +7,9 @@
 void print_alphabet()
 {
 	char alphabets[] = "abcdefghijklmnopqrstvwxz";
+	int i;
 
-	for (int i = 0; i < 24; i++)
+	for (i = 0; i < 24; i++)
 	{
 		_putchar(alphabets[i]);
 	}
