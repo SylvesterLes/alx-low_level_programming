@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* print_number - print integer using _putchar
+* print_number - prints integer using _putchar function
 * @n: integer
 *
-* Return: void
+* Return: null
 */
 void print_number(int n)
 {
