@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stddef.h>
+#include <stdio.h>
 /**
  * _strchr - ocates a character in a string
  * @s: string value
