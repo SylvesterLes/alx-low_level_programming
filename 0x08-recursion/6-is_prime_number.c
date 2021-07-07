@@ -8,13 +8,13 @@
 int sqrt_rec(int n, int i)
 {
 	if (n <= 0)
-  {
-    return (-1);
-  }
+	{
+		return (-1);
+	}
 	if (n * n == i)
-  {
+	{
 		return (n);
-  }
+	}
 	return (sqrt_rec(n - 1, i));
 }
 /**
@@ -25,9 +25,9 @@ int sqrt_rec(int n, int i)
 int _sqrt_recursion(int n)
 {
 	if (n == 1)
-  {
+	{
 		return (1);
-  }
+	}
 	return (sqrt_rec(n / 2, n));
 }
 /**
@@ -38,8 +38,12 @@ int _sqrt_recursion(int n)
 int is_prime_number(int n)
 {
 	if (n <= 1 || _sqrt_recursion(n) >= 1)
+	{
 		return (0);
+	}
 	if (_sqrt_recursion(n) == -1)
+	{
 		return (1);
+	}
 	return (_sqrt_recursion(n));
 }
