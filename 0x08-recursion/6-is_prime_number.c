@@ -31,7 +31,8 @@ int _sqrt_recursion(int n)
 	return (sqrt_rec(n / 2, n));
 }
 /**
- * is_prime_number - eturns 1 if the input integer is a prime number, otherwise 0
+ * is_prime_number - eturns 1 if the
+ * input integer is a prime number, otherwise 0
  * @n: given number
  * Return: 1 || 0
  **/
