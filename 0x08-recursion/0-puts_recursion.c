@@ -1,0 +1,16 @@
+#include "holberton.h"
+/**
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: string pointer
+ * Return: 0 (always)
+ */
+void _puts_recursion
+{
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return 0;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
+}
