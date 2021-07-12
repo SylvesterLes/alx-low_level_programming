@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int num_one;
 	int num_two;
-        int result;
+	int result;
 
 	if (argc <= 2)
 	{
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
-	result = a * b;
+	result = num_one * num_two;
 	printf("%d\n", result);
 	return (0);
 }
