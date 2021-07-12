@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
-		evaluate(argv[i]);
+		num = evaluate(argv[i]);
 		if (num == -1)
 		{
 			printf("Error\n");
