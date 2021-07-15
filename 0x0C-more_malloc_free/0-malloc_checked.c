@@ -4,8 +4,7 @@
 #include <limits.h>
 
 /**
- * ma;;oc_checked - a function that allocates memory using malloc
- * @mem_size: Memory size
+ * malloc_checked - a function that allocates memory using malloc
  * @b: size of memory to be allocated
  *
  * Return: Always 0.
